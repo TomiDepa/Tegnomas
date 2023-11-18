@@ -1,6 +1,6 @@
-<?php
-require_once("headerAdm.php");
-?>
+
+@include("headerAdm");
+
 <main class="backgroundSolido">
     <section class="admImg">
         <img src="img/database.png" alt="Database" class="img-fluid">
@@ -15,6 +15,4 @@ require_once("headerAdm.php");
         </div>
     </section>
 </main>
-<?php
-require_once("footer.php");
-?>
+@include("footer");

@@ -1,6 +1,6 @@
-<?php
-require_once("header.blade.php");
-?>
+
+@include("header")
+
 <main class="backgroundDegrade">
     <section>
         <div class="encabezadoImg">
@@ -15,15 +15,15 @@ require_once("header.blade.php");
             <p>
                 La tecnología nos encanta porque nos facilita la vida, nos entretiene y nos conecta con los demás. Los productos tecnológicos nos permiten realizar tareas de forma más rápida y eficiente, acceder a información y entretenimiento de forma ilimitada, y mantenernos en contacto con las personas que nos importan.
             </p>
-            <a href="nosotros.php" class="boton">LEER MAS</a>
+            <a href="{{ url('nosotros')}}" class="boton">LEER MAS</a>
         </section>
         <section class="imgIndex">
-            <a href="productos.php"><img src="img/celu.png" alt="Iphone 14 Pro Max" class="img-fluid"></a>
-            <a href="producyos.php"><img src="img/auris.png" alt="Auriculares" class="img-fluid"></a>
-            <a href="productos.php"><img src="img/mando.png" alt="Mando Xbox" class="img-fluid"></a>
+        <a href="{{ url('productos') }}"><img src="img/celu.png" alt="Iphone 14 Pro Max" class="img-fluid"></a>
+                <a href="{{ url('producyos') }}"><img src="img/auris.png" alt="Auriculares" class="img-fluid"></a>
+                <a href="{{ url('productos') }}"><img src="img/mando.png" alt="Mando Xbox" class="img-fluid"></a>
         </section>
     </section>
 </main>
-    <?php
-    require_once("footer.php");
-    ?>
+    
+    @include("footer")
+    
