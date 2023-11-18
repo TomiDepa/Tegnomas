@@ -1,6 +1,6 @@
-<?php
-require_once("headerL.php");
-?>
+
+@include("headerL")
+
 <main class="backgroundDegrade">
     <section class="encabezadoImg">
         <img src="img/laptop.png" alt="Laptop" class="img-fluid">
@@ -30,6 +30,5 @@ require_once("headerL.php");
         </form>
     </section>
 </main>
-<?php
-require_once("footer.php");
-?>
+
+@include("footer")

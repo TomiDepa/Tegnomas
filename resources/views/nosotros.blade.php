@@ -1,6 +1,6 @@
-<?php
-require_once("header.php");
-?>
+
+@include("header")
+
 <main>
     <section class="backgroundDegrade">
         <div class="encabezadoNosotros">
@@ -17,6 +17,5 @@ require_once("header.php");
         <p>Acá encontraras desde consolas, pc, laptops, dispositivos de sonidos y mas... </p> 
     </section> 
 </main>
-<?php
-require_once("footer.php");
-?>
+
+@include("footer")
