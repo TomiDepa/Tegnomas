@@ -35,10 +35,7 @@ Route::get('/administracion', [AdminController::class, 'index']);
 Route::get('/admPost', [AdminController::class, 'adminPost']);
 Route::get('/admUsuario', [AdminController::class, 'adminUsuario']);
 
-Route::get('/index', function(){
-    return view ('index');
-});
 
-Route::get('/productos', function(){
+Route::get('/', function(){
     return view ('productos');
 });
