@@ -18,12 +18,12 @@
                 </p>
             </div>
             <div class="colImg">
-                <img src="img/Iphone15.png" alt="iPhone 15 Pro" class="img-fluid">
+                <img src="{{ asset('img/Iphone15.png')}}" alt="iPhone 15 Pro" class="img-fluid">
             </div>
         </div>
         <div class="cajasProd">
             <div class="colImg">
-                <img src="img/Samsung.png" alt="Galaxy Z Fold5" class="img-fluid">
+                <img src="{{ asset('img/Samsung.png')}}" alt="Galaxy Z Fold5" class="img-fluid">
             </div>
             <div class="colText">
                 <p>
