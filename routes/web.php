@@ -36,6 +36,11 @@ Route::get('/admPost', [AdminController::class, 'adminPost']);
 Route::get('/admUsuario', [AdminController::class, 'adminUsuario']);
 
 
-Route::get('/', function(){
-    return view ('productos');
-});
+
+
+
+// ruta productos
+Route::get('/productos', 'ProductosController@index');
+
+// ruta registro 
+Route::get('/registrar', 'RegistrarController@index');
