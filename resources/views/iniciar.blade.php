@@ -3,7 +3,7 @@
 
 <main class="backgroundDegrade">
     <section class="encabezadoImg">
-        <img src="img/laptop.png" alt="Laptop" class="img-fluid">
+        <img src="{{ asset('img/laptop.png')}}" alt="Laptop" class="img-fluid">
         <div class="textEncabezado">
             <h2>Iniciar Sesion</h2>
         </div>
@@ -23,7 +23,7 @@
         </form>
     </section>
     <section class="botonIniSes">
-        <a href="registrar.php" class="boton">No tengo cuenta</a>
+        <a href="{{ url('registrar')}}" class="boton">No tengo cuenta</a>
     </section>
 </main>
 
